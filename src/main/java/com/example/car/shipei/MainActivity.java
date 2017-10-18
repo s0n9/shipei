@@ -15,5 +15,24 @@ public class MainActivity extends AppCompatActivity {
         //hehe
         //lala
         //来自github上的修改
+        /**
+         *.apk
+         *.ap_
+         *.dex
+         *.class
+         bin/
+         gen/
+         out/
+         .gradle/
+         build/
+         local.properties
+         proguard/
+         *.log
+         .navigation/
+         captures/
+         *.iml
+         .idea/
+         *.jks
+         * **/
     }
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/account_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_item_margin" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/fix_password" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/notification_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/alias_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/pay_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/feedback_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_item_margin" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/upgrade_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/about_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/frequently_questions" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/clear_cache" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.chinaway.android.truck.manager.view.SettingItemView android:id="@id/logout_settings" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_item_margin" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

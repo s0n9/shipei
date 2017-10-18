@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_bank" android:background="@drawable/gpay_logo_bg" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="15.0dip" android:layout_marginStart="15.0dip" />
+    <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C0" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/bank_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginStart="15.0dip" />
+</LinearLayout>

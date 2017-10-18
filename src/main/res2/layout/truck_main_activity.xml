@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:my="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <com.chinaway.android.truck.manager.view.CustomViewPager android:id="@id/fragments_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" my:enableSwitchByGesture="false" />
+        <TabWidget android:layout_gravity="bottom" android:orientation="horizontal" android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+    </LinearLayout>
+</TabHost>

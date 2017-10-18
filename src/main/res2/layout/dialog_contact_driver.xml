@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_content_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/dialog_contact_drivers" android:background="@null" android:paddingLeft="@dimen/list_margin_contact_driver" android:paddingRight="@dimen/list_margin_contact_driver" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/list_margin_contact_driver" android:divider="@color/white" android:dividerHeight="@dimen/diver_height_contact_driver_list" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="15.0dip" android:paddingEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/etc_payment_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/etc_more_detail" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:drawableStart="@drawable/etc_more_detail" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip" android:layout_toLeftOf="@id/etc_payment_more" android:layout_centerVertical="true" android:paddingEnd="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:gravity="left|center" android:id="@id/bill_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_size_A2" android:textStyle="bold" android:textColor="@color/C0" android:gravity="right|center" android:id="@id/bill_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_top_multiple_list">
+            <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:ellipsize="end" android:gravity="left|center" android:id="@id/bill_order" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:gravity="right|center" android:id="@id/bill_order_state" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

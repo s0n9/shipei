@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.chinaway.android.truck.manager.view.EmptyView android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" ptr:ptrHeaderTextColor="@color/refreshing" ptr:ptrDrawable="@drawable/refresh" style="@style/pull_list_view_style" xmlns:ptr="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

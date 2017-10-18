@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/base_top_layout" />
+    <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+    <View android:id="@id/seprate_line" android:background="@color/C7" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" android:layout_marginTop="@dimen/list_top_margin" />
+</LinearLayout>

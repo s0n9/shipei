@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/white" android:gravity="center" android:id="@id/driver" android:background="@drawable/green_rounded_rectangle" android:padding="@dimen/padding_contact_driver" android:paddingLeft="@dimen/padding_contact_driver_list_item" android:paddingRight="@dimen/padding_contact_driver_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

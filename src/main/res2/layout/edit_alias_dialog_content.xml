@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_bank_rounded_rectangle" android:layout_width="@dimen/webank_dialog_width" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/C5" android:gravity="center" android:id="@id/dialog_title" android:background="@drawable/bg_bank_title_rounded" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/label_edit_alias_dialog_title" />
+        <EditText android:textSize="@dimen/font_size_A1" android:textColor="@color/C0" android:id="@id/edit_text" android:background="@drawable/bg_bank_login_password" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:inputType="text" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C2" android:gravity="center_vertical" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:text="@string/label_edit_alias_message" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <Button android:textColor="@color/C5" android:gravity="center" android:id="@id/btn_negative" android:background="@drawable/bg_bank_button_rounded_rectangle" android:layout_marginRight="10.0dip" android:text="@string/label_cancel" android:layout_marginEnd="10.0dip" style="@style/BankDialogButton" />
+            <Button android:gravity="center" android:id="@id/btn_positive" android:background="@drawable/blue_rounded_rectangle" android:layout_marginLeft="10.0dip" android:text="@string/label_confirm" android:layout_marginStart="10.0dip" style="@style/BankDialogButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

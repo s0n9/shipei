@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout tools:layout_width="fill_parent" tools:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/apk/res/android">
+    <RelativeLayout tools:gravity="center" tools:background="@color/C9" tools:paddingLeft="15.0dip" tools:paddingRight="15.0dip" tools:layout_width="fill_parent" tools:layout_height="wrap_content" tools:minHeight="@dimen/height_size_list">
+        <TextView tools:textSize="@dimen/font_size_A2" tools:textColor="@color/C0" tools:gravity="center" tools:id="@id/label_car_number" tools:paddingBottom="@dimen/padding_top_multiple_list" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="[川A72621]" tools:layout_alignParentLeft="true" tools:layout_alignParentTop="true" tools:layout_alignParentStart="true" />
+        <TextView tools:textSize="@dimen/font_size_A3" tools:textColor="@color/C5" tools:gravity="center" tools:id="@id/credit_card_num" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="卡号: 1928*3092" tools:layout_below="@id/label_car_number" tools:layout_alignParentLeft="true" tools:layout_alignParentStart="true" />
+        <TextView tools:textSize="@dimen/font_size_A2" tools:textStyle="bold" tools:textColor="@color/C0" tools:gravity="center" tools:id="@id/debt_count" tools:paddingBottom="@dimen/padding_top_multiple_list" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="7200.00" tools:layout_alignParentTop="true" tools:layout_alignParentRight="true" tools:layout_alignParentEnd="true" />
+        <TextView tools:textSize="@dimen/font_size_A3" tools:textColor="@color/C5" tools:gravity="center" tools:id="@id/balance_detail" tools:clickable="true" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="@string/label_consume_detail" tools:drawableRight="@drawable/etc_more_detail" tools:layout_below="@id/debt_count" tools:layout_alignParentRight="true" tools:drawableEnd="@drawable/etc_more_detail" tools:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

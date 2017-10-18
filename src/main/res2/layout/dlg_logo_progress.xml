@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#99333333" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/arc_progress_bg" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="-150.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/loadingLogoIv" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/logo_loading" />
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignRight="@id/loadingLogoIv" android:layout_alignBottom="@id/loadingLogoIv" android:layout_alignParentLeft="true" android:layout_alignEnd="@id/loadingLogoIv" android:layout_alignParentStart="true">
+            <View android:id="@id/dotV0" android:background="@drawable/dot_bg" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size" android:layout_margin="@dimen/dot_margin" android:alpha="0.8" />
+            <View android:id="@id/dotV1" android:background="@drawable/dot_bg" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size" android:layout_margin="@dimen/dot_margin" android:layout_toRightOf="@id/dotV0" android:alpha="0.8" />
+            <View android:id="@id/dotV2" android:background="@drawable/dot_bg" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size" android:layout_margin="@dimen/dot_margin" android:layout_toRightOf="@id/dotV1" android:alpha="0.8" />
+            <View android:id="@id/dotV3" android:background="@drawable/dot_bg" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size" android:layout_margin="@dimen/dot_margin" android:layout_toRightOf="@id/dotV2" android:alpha="0.8" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

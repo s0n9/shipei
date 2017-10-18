@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/guide_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    <TextView android:textSize="@dimen/font_size_A1" android:textColor="@color/C9" android:gravity="center" android:id="@id/guide_next" android:background="@drawable/checkout_over_date_bill" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:minWidth="216.0dip" android:minHeight="50.0dip" android:text="@string/label_confirm_enter_etc" />
+</LinearLayout>

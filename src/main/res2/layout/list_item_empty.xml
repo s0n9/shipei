@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C6" android:gravity="center" android:id="@id/item_empty" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="当月输完了"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

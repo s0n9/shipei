@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/bank_dialog_rounded_rectangle_radius" android:topRightRadius="@dimen/bank_dialog_rounded_rectangle_radius" />
+    <solid android:color="@color/bg_webank_dialog_title" />
+</shape>

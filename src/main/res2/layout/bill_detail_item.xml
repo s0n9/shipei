@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout tools:orientation="vertical" tools:layout_width="fill_parent" tools:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/apk/res/android">
+    <View tools:id="@id/padding_view" tools:layout_width="fill_parent" tools:layout_height="20.0dip" />
+    <View tools:id="@id/top_line" tools:background="@color/C7" tools:layout_width="fill_parent" tools:layout_height="1.0px" />
+    <TextView tools:textSize="14.0sp" tools:textColor="@color/C5" tools:gravity="center_vertical" tools:id="@id/title" tools:background="@color/white" tools:paddingLeft="16.0dip" tools:paddingRight="16.0dip" tools:layout_width="fill_parent" tools:layout_height="32.0dip" tools:text="账单明细" />
+    <View tools:id="@id/bottom_line" tools:background="@color/C7" tools:layout_width="fill_parent" tools:layout_height="1.0px" />
+    <LinearLayout tools:gravity="center_vertical" tools:orientation="vertical" tools:background="@drawable/etc_bill_list_item_selector" tools:layout_width="fill_parent" tools:layout_height="70.0dip">
+        <RelativeLayout tools:id="@id/click_layout" tools:paddingLeft="16.0dip" tools:paddingRight="16.0dip" tools:layout_width="fill_parent" tools:layout_height="wrap_content">
+            <TextView tools:textSize="24.0sp" tools:textColor="@color/C0" tools:id="@id/charge_day" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:layout_marginRight="16.0dip" tools:text="12" tools:layout_alignParentTop="true" tools:layout_marginEnd="16.0dip" />
+            <TextView tools:textSize="14.0sp" tools:textColor="@color/C6" tools:id="@id/charge_month" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="四月" tools:layout_below="@id/charge_day" />
+            <TextView tools:textSize="14.0sp" tools:textColor="@color/C0" tools:ellipsize="end" tools:gravity="bottom" tools:id="@id/exit_address" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:layout_marginTop="4.0dip" tools:text="G22青兰高速出口" tools:singleLine="true" tools:layout_toLeftOf="@id/charge_hm" tools:layout_toRightOf="@id/charge_day" tools:layout_alignParentTop="true" tools:layout_toStartOf="@id/charge_hm" tools:layout_toEndOf="@id/charge_day" />
+            <TextView tools:textSize="14.0sp" tools:textColor="@color/C6" tools:ellipsize="end" tools:gravity="bottom" tools:id="@id/enter_address" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:layout_marginTop="8.0dip" tools:text="G22青兰高速出口" tools:singleLine="true" tools:layout_toLeftOf="@id/amount" tools:layout_alignLeft="@id/exit_address" tools:layout_alignBottom="@id/charge_month" tools:layout_toStartOf="@id/amount" tools:layout_alignStart="@id/exit_address" />
+            <TextView tools:textSize="14.0sp" tools:textColor="@color/C5" tools:gravity="end" tools:id="@id/charge_hm" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:layout_marginTop="4.0dip" tools:text="12:30" tools:layout_alignParentRight="true" tools:layout_alignParentEnd="true" />
+            <TextView tools:textSize="16.0sp" tools:textColor="@color/C1" tools:gravity="end" tools:id="@id/amount" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="120.00" tools:layout_alignBottom="@id/charge_month" tools:layout_alignParentRight="true" tools:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View tools:background="@color/C7" tools:layout_width="fill_parent" tools:layout_height="1.0px" />
+</LinearLayout>

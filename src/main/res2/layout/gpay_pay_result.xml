@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginBottom="35.0dip" />
+        <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:id="@id/label_pay_status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:id="@id/label_pay_desc" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/detail_container" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/list_item_padding" android:paddingRight="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height" android:paddingStart="@dimen/list_item_padding" android:paddingEnd="@dimen/list_item_padding">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_gpay_deal_money" />
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/text_color_gpay_money" android:id="@id/label_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_left_gpay_result" android:layout_marginStart="@dimen/margin_left_gpay_result" />
+        </LinearLayout>
+        <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/list_item_padding" android:paddingRight="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height" android:paddingStart="@dimen/list_item_padding" android:paddingEnd="@dimen/list_item_padding">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_gpay_deal_time" />
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:id="@id/label_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_left_gpay_result" android:layout_marginStart="@dimen/margin_left_gpay_result" />
+        </LinearLayout>
+        <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/list_item_padding" android:paddingRight="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height" android:paddingStart="@dimen/list_item_padding" android:paddingEnd="@dimen/list_item_padding">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_gpay_deal_style" />
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:id="@id/label_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_left_gpay_result" android:layout_marginStart="@dimen/margin_left_gpay_result" />
+        </LinearLayout>
+        <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C9" android:gravity="center" android:id="@id/pay_back" android:background="@drawable/bg_pay_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_padding" android:layout_marginTop="30.0dip" android:layout_marginRight="@dimen/list_item_padding" android:minHeight="44.0dip" android:text="@string/label_gpay_pay_complete" android:layout_marginStart="@dimen/list_item_padding" android:layout_marginEnd="@dimen/list_item_padding" />
+</LinearLayout>

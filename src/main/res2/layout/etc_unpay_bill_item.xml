@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:gravity="center_vertical" android:id="@id/label_bill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/bill_money" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:gravity="right|center" android:id="@id/bill_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

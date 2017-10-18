@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/h5_app_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/segment_action_bar_with_up" />
+        <com.webank.mbank.ui.component.AppWebView android:id="@id/h5_app_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/navigationTb" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

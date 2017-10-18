@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/bg_webank_confirm_round_retangle" />
+    <item android:drawable="@drawable/bg_pay_confirm_rounded_rectangle" />
+</selector>

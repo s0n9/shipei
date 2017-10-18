@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/segment_action_bar_with_up" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/navigationTb">
+        <com.webank.mbank.ui.camera.PreviewFrameLayout android:id="@id/previewLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <SurfaceView android:id="@id/id_detection_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </com.webank.mbank.ui.camera.PreviewFrameLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/id_card_frame_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dtct_face_outline" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/readingWordLlTvs" android:background="@drawable/face_words_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+                <View android:background="@color/face_word_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <TextView android:textSize="@dimen/face_word_text_size" android:textColor="@color/face_word_color" android:gravity="center" android:id="@id/faceWord7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:textColor="#ff3f5b93" android:gravity="center" android:id="@id/tvWord" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/dtct_reading_prompt" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/ivReadingWord" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/start_btn" android:layout_below="@id/readingWordLlTvs" android:layout_centerInParent="true" />
+            <Button android:textSize="16.0sp" android:id="@id/start_btn" android:background="@drawable/dtct_start_btn_bg" android:padding="3.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/recording_btn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:src="@drawable/dtct_recording_btn_bg" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/btnsLl" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:textColor="@color/face_word_color" android:id="@id/btnRecordAgain" android:background="@drawable/face_retry_bg" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_weight="1.0" />
+                <Button android:textColor="@android:color/white" android:id="@id/btnRecordUpload" android:background="@drawable/face_start_bg" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/overlayerRl" android:background="#99333333" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/arc_progress_bg" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="-150.0dip" android:layout_centerInParent="true">
+            <com.webank.mbank.ui.component.ArcLoadingView android:id="@id/loadingAlv" android:padding="15.0dip" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/verifying" android:layout_below="@id/loadingAlv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

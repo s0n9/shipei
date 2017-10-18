@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_bank_rounded_rectangle" android:layout_width="@dimen/webank_dialog_width" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/C5" android:gravity="center" android:id="@id/dialog_title" android:background="@drawable/bg_bank_title_rounded" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/title_webank_pwd_input_dialog" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="47.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/C5" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/lable_account_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_bank_account" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/label_webank_input_dialog_content_account" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/account_number" android:paddingLeft="@dimen/padding_left_bank_dialog" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.csii.powerenter.PEEditText android:id="@id/account_password" android:background="@drawable/bg_bank_login_password" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <Button android:textColor="@color/C5" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/bg_bank_button_rounded_rectangle" android:layout_marginRight="10.0dip" android:text="@string/label_cancel" android:layout_marginEnd="10.0dip" style="@style/BankDialogButton" />
+            <Button android:gravity="center" android:id="@id/ok_btn" android:background="@drawable/blue_rounded_rectangle" android:layout_marginLeft="10.0dip" android:text="@string/label_confirm" android:layout_marginStart="10.0dip" style="@style/BankDialogButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_dialog_width">280.0dip</dimen>
+    <dimen name="height_gpay_pay_title">90.0dip</dimen>
+    <dimen name="login_margin_top_big_size">48.0dip</dimen>
+    <dimen name="notication_detail_content_textsize">13.0sp</dimen>
+    <dimen name="textsize_buy_label">16.0sp</dimen>
+    <dimen name="webank_dialog_width">280.0dip</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout tools:gravity="center_vertical" tools:orientation="horizontal" tools:background="@color/C9" tools:paddingRight="15.0dip" tools:layout_width="fill_parent" tools:layout_height="wrap_content" tools:minHeight="@dimen/height_size_multiple_list" tools:paddingEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/apk/res/android">
+    <com.chinaway.android.truck.manager.view.CheckedTextView tools:textSize="@dimen/font_size_A1" tools:textColor="@color/C0" tools:gravity="center_vertical" tools:id="@id/bill_check" tools:paddingLeft="20.0dip" tools:paddingRight="15.0dip" tools:layout_width="wrap_content" tools:layout_height="fill_parent" tools:paddingEnd="15.0dip" />
+    <LinearLayout tools:layout_gravity="center_vertical" tools:orientation="vertical" tools:layout_width="fill_parent" tools:layout_height="wrap_content">
+        <LinearLayout tools:gravity="center_vertical" tools:orientation="horizontal" tools:layout_width="fill_parent" tools:layout_height="wrap_content">
+            <TextView tools:textSize="@dimen/font_size_A2" tools:textColor="@color/C0" tools:gravity="start|center" tools:id="@id/bill_num" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:layout_marginRight="10.0dip" tools:text="201611" tools:layout_marginEnd="10.0dip" />
+            <TextView tools:textSize="@dimen/font_size_A2" tools:textStyle="bold" tools:textColor="@color/C0" tools:gravity="end|center" tools:id="@id/bill_total_amount" tools:layout_width="fill_parent" tools:layout_height="fill_parent" tools:text="1000" />
+        </LinearLayout>
+        <TextView tools:textSize="@dimen/font_size_A3" tools:textColor="@color/C5" tools:gravity="start|center" tools:id="@id/bill_amount" tools:layout_width="fill_parent" tools:layout_height="wrap_content" tools:layout_marginTop="5.0dip" tools:text="金额1000" />
+        <TextView tools:textSize="@dimen/font_size_A3" tools:textColor="@color/C5" tools:gravity="start|center" tools:id="@id/bill_lateday_and_latefee" tools:layout_width="fill_parent" tools:layout_height="wrap_content" tools:layout_marginTop="2.0dip" tools:text="逾期1天，滞纳金300" />
+    </LinearLayout>
+</LinearLayout>

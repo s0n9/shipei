@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/content_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_bind_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginBottom="35.0dip" />
+        <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:id="@id/txt_bind_status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="22.0dip" />
+        <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:id="@id/txt_bind_desc" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C9" android:gravity="center" android:id="@id/txt_bind_done" android:background="@drawable/bg_pay_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_padding" android:layout_marginTop="30.0dip" android:layout_marginRight="@dimen/list_item_padding" android:minHeight="44.0dip" android:text="@string/label_gpay_pay_complete" android:layout_marginStart="@dimen/list_item_padding" android:layout_marginEnd="@dimen/list_item_padding" />
+</LinearLayout>

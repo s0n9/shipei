@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_card_binded" android:background="@color/C0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_add_bankcard_with_bind" android:background="@drawable/btn_add_bank_card" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="21.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/ic_add_bankcard" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/C9" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="12.0dip" android:text="@string/label_add_bankcard" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+        <ListView android:id="@id/list_bank_bind" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="20.0dip" android:listSelector="@drawable/bank_list_item_selector" android:divider="@color/bg_bank_item" android:dividerHeight="20.0dip" android:layout_above="@id/layout_add_bankcard_with_bind" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_card_without_bind" android:background="@color/C0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/bg_without_bankcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" />
+        <TextView android:textSize="@dimen/abc_text_size_body_1_material" android:textColor="@color/C6" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="31.0dip" android:text="@string/label_without_bankcard" />
+        <TextView android:textSize="@dimen/abc_text_size_caption_material" android:textColor="@color/C6" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/label_bankcard_support" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_add_bankcard_without_bind" android:background="@drawable/btn_add_bank_card" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="31.0dip" android:layout_marginRight="15.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/ic_add_bankcard" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/C9" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="12.0dip" android:text="@string/label_add_bankcard" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.chinaway.android.truck.manager.view.BaseWebView android:id="@id/webview_content" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="400.0dip" />
+    <com.chinaway.android.truck.manager.view.NetErrorPage android:id="@id/net_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="400.0dip" />
+</FrameLayout>

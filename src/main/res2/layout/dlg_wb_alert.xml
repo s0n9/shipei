@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@drawable/dlg_background" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/dlgTitleTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@android:color/black" android:gravity="center" android:id="@id/dlgMsgTv" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@id/dlgTitleTv" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/splitLineRl" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/dlgMsgTv" />
+    <Button android:id="@id/closeBtn" android:background="@drawable/dlg_button_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/close" android:layout_below="@id/splitLineRl" />
+</RelativeLayout>

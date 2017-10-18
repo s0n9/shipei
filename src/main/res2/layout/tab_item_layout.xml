@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@drawable/textcolor_tab_item" android:gravity="center" android:layout_gravity="center" android:id="@id/tab_item_label" android:padding="@dimen/tabitem_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/badge_margin" android:drawableTop="@drawable/ic_launcher" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/right_divider" android:background="@color/C5" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="36.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/badge_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/badge_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/font_size_A4" android:textColor="@color/white" android:gravity="center" android:id="@id/cnt_notification" android:background="@drawable/bg_badge" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/check_code" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="130.0dip">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_order_select_bank_money" />
+            <TextView android:textSize="@dimen/textsize_gpay_money_pay" android:textColor="@color/text_color_gpay_money" android:id="@id/value_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="0.00" />
+        </LinearLayout>
+        <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+        <TextView android:gravity="center_vertical" android:background="@color/C8" android:paddingLeft="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/label_pay_type" android:paddingStart="@dimen/list_item_padding" />
+        <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+        <ListView android:id="@id/bank_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/C7" android:dividerHeight="@dimen/listview_divider_height" android:minHeight="55.0dip" />
+        <View android:id="@id/top_line" android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/expand_container" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+            <CheckBox android:textSize="@dimen/font_size_A3" android:textColor="@color/C0" android:id="@id/label_expand" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:drawableRight="@drawable/bg_list_arrow" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/bg_list_arrow" />
+        </LinearLayout>
+        <View android:id="@id/bottom_line" android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="@dimen/settings_sperate_line_height" />
+    </LinearLayout>
+    <TextView android:enabled="false" android:textSize="@dimen/font_size_A2" android:textColor="@color/C9" android:gravity="center" android:id="@id/check_code" android:background="@drawable/bg_pay_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_padding" android:layout_marginTop="25.0dip" android:layout_marginRight="@dimen/list_item_padding" android:layout_marginBottom="25.0dip" android:minHeight="44.0dip" android:text="@string/label_get_check_code" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/list_item_padding" android:layout_marginEnd="@dimen/list_item_padding" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_marginTop="20.0dip" style="@style/divider_style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:gravity="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/label_leaguer_name" android:ems="4" android:layout_marginEnd="20.0dip" />
+            <EditText android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:textColorHint="@color/C6" android:id="@id/edit_text_name" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_leaguer_name" android:singleLine="true" android:maxLength="20" />
+        </LinearLayout>
+        <View style="@style/divider_style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:gravity="end" android:id="@id/phone_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/label_leaguer_phone_num" android:ems="4" android:layout_marginEnd="20.0dip" />
+            <EditText android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:textColorHint="@color/C6" android:id="@id/edit_phone_num" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/label_leaguer_phone_num_hint" android:singleLine="true" android:maxLength="11" android:inputType="phone" />
+        </LinearLayout>
+        <View style="@style/divider_style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:gravity="right" android:id="@id/sex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/label_sex" android:ems="4" android:layout_marginEnd="20.0dip" />
+            <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/radio_sex" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/male" android:layout_marginRight="55.0dip" android:checked="true" android:text="@string/label_sex_male" android:layout_marginEnd="55.0dip" style="@style/sex_radio_btn_style" />
+                <RadioButton android:id="@id/female" android:text="@string/label_sex_female" style="@style/sex_radio_btn_style" />
+            </RadioGroup>
+        </LinearLayout>
+        <View style="@style/divider_style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/C9" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C5" android:gravity="right" android:id="@id/birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/label_birthday" android:ems="4" android:layout_marginEnd="20.0dip" />
+            <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C6" android:id="@id/btn_select_birth_day" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/label_birthday_hint" />
+        </LinearLayout>
+        <View style="@style/divider_style" />
+        <TextView android:textSize="@dimen/font_size_A4" android:textColor="@color/C2" android:gravity="center" android:id="@id/wrong_phone_num" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/hint_wrong_format_phone_number" />
+        <TextView android:enabled="false" android:textSize="@dimen/font_size_A1" android:textColor="@color/C9" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/btn_confirm" android:background="@drawable/bg_pay_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:minHeight="44.0dip" android:text="@string/label_confirm" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/time_select_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

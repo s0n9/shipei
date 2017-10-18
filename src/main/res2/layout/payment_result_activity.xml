@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_result" android:layout_width="wrap_content" android:layout_height="135.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/pay_icon_success" android:scaleType="center" />
+    <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/C5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/label_pay_num" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/value_pay_money_text" android:id="@id/payment_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/C5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/label_payment_transaction_id" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/C0" android:id="@id/deal_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/C7" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textColor="@color/C6" android:gravity="center" android:id="@id/lable_pay_complete" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/label_pay_complete" />
+    <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/btn_goback" android:background="@drawable/bg_pay_confirm_complete_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/label_go_back_to_etc_main_page" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/C0" android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@id/btn_go_auto_pay_setting" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/label_go_auto_pay_setting" android:layout_weight="1.0" />
+</LinearLayout>

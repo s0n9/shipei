@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingRight="@dimen/list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/list_item_padding" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/height_size_list" android:paddingStart="@dimen/list_item_padding" android:paddingEnd="@dimen/list_item_padding">
+        <TextView android:textSize="@dimen/font_size_A2" android:textColor="@color/C0" android:gravity="center" android:id="@id/car_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/font_size_A2" android:textStyle="bold" android:textColor="@color/C0" android:gravity="center" android:id="@id/debt_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/font_size_A3" android:textColor="@color/C5" android:gravity="center" android:id="@id/card_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_top_multiple_list" android:layout_below="@id/car_number" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout tools:gravity="center_vertical" tools:orientation="horizontal" tools:background="@color/C9" tools:paddingRight="15.0dip" tools:layout_width="fill_parent" tools:layout_height="wrap_content" tools:minHeight="60.0dip" tools:paddingEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/apk/res/android">
+    <com.chinaway.android.truck.manager.view.CheckedTextView tools:textSize="@dimen/font_size_A1" tools:textColor="@color/C0" tools:gravity="center_vertical" tools:id="@id/bill_check" tools:paddingLeft="20.0dip" tools:paddingRight="15.0dip" tools:layout_width="wrap_content" tools:layout_height="fill_parent" tools:paddingEnd="15.0dip" />
+    <TextView tools:textSize="@dimen/font_size_A1" tools:textColor="@color/C0" tools:gravity="center_vertical" tools:id="@id/bill_date" tools:layout_width="wrap_content" tools:layout_height="wrap_content" tools:text="2010222" />
+    <TextView tools:textSize="@dimen/font_size_A1" tools:textStyle="bold" tools:textColor="@color/C0" tools:gravity="end|center" tools:id="@id/label_amount" tools:layout_width="fill_parent" tools:layout_height="wrap_content" tools:text="1000" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/parent_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip">
+        <TextView android:textSize="@dimen/font_size_A4" android:textColor="@color/white" android:id="@id/data_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/data_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/data_label" android:layout_alignLeft="@id/data_label" android:layout_alignStart="@id/data_label" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/data_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:layout_below="@id/data_prefix" android:layout_alignLeft="@id/data_label" android:layout_alignStart="@id/data_label" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/measurement_unit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" android:layout_toRightOf="@id/data_content" android:layout_alignBottom="@id/data_content" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/data_content" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/content_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_empty" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

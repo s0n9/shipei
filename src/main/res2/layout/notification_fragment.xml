@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:id="@id/listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/C7" android:dividerHeight="@dimen/listview_divider_height" android:headerDividersEnabled="false" android:footerDividersEnabled="false" ptr:ptrHeaderTextColor="@color/refreshing" ptr:ptrDrawable="@drawable/refresh" xmlns:ptr="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_view" android:background="@drawable/black_round_rectangle" android:visibility="gone" android:layout_width="@dimen/loading_bg_square_size" android:layout_height="@dimen/loading_bg_square_size" android:layout_centerInParent="true">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/loading_progress_wheel" android:indeterminateBehavior="repeat" />
+    </LinearLayout>
+</RelativeLayout>
